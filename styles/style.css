@@ -55,6 +55,10 @@ body {
         padding-top: 0.2rem;
         padding-bottom: 0.2rem;
     }
+
+    *, ::after, ::before {
+        box-sizing: unset;
+    }
  }
  
  /*CSS Styles for the TOGGLE BUTTON */
