@@ -1,0 +1,66 @@
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+    position: fixed;
+}
+
+.code-box {
+    border: solid 1px red;
+    padding: 1em;
+    font-style: italic;
+}
+
+.main-section header {
+    text-align: center;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+@media (max-width: 768px) { 
+    #navbar-left {
+        display: none;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: auto;
+        padding-right:0rem;
+        padding-left: 0rem;
+    }
+    #toggle-button div div li {
+        list-style-type: none;
+    }
+    
+    #toggle-button div div a {
+        text-decoration: none;
+        color: black;
+    }
+  
+    #toggle-button {
+        position: fixed;
+    }
+    #toggle-color {
+        background: linear-gradient(35deg, #f8ccc8, #fdf35d);
+    }
+
+    .navbar {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+ }
+ 
+ /*CSS Styles for the TOGGLE BUTTON */
+ @media (min-width: 768px) { 
+    #toggle-button {
+        display: none;
+    }  
+     
+ }
