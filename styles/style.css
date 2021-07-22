@@ -59,6 +59,18 @@ body {
     *, ::after, ::before {
         box-sizing: unset;
     }
+
+    #introduction {
+        --bs-gutter-x: 0;
+    }
+
+    .p-5 {
+        padding: 1.5rem !important;
+    }
+
+    .m-5 {
+        margin: 1.7rem !important;
+    }
  }
  
  /*CSS Styles for the TOGGLE BUTTON */
