@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python - Documentation</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body class="container-fluid row">
     <header class="col-3" id="navbar-left">
+
         <nav class="nav m-1 navbar-nav-scroll" id="navbar">
             <ul>
                 <header class="fs-3 p-2 my-3"><b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp&nbsp;Python <br>Documentation</b></header>
-                <li class="border-bottom py-2 border-info mt-4"><a href="#introduction" class="nav-item">Introduction</a></li>
-                <li class="border-bottom py-2 border-info"><a href="#basic_syntax" class="nav-item">Basic Syntax</a></li>
-                <li class="border-bottom py-2 border-info"><a href="#variable_types" class="nav-item">Variable Types</a></li>
-                <li class="border-bottom py-2 border-info"><a href="#basic_operators" class="nav-item">Basic Operators</a></li>
-                <li class="border-bottom py-2 border-info"><a href="#decision_making" class="nav-item">Decision Making</a></li>
+                <li class="border-bottom py-2 border-info mt-4"><a href="#introduction"
+                        class="nav-item">Introduction</a></li>
+                <li class="border-bottom py-2 border-info"><a href="#basic_syntax" class="nav-item">Basic Syntax</a>
+                </li>
+                <li class="border-bottom py-2 border-info"><a href="#variable_types" class="nav-item">Variable Types</a>
+                </li>
+                <li class="border-bottom py-2 border-info"><a href="#basic_operators" class="nav-item">Basic
+                        Operators</a></li>
+                <li class="border-bottom py-2 border-info"><a href="#decision_making" class="nav-item">Decision
+                        Making</a></li>
                 <li class="border-bottom py-2 border-info"><a href="#loops" class="nav-item">Loops</a></li>
                 <li class="border-bottom py-2 border-info"><a href="#numbers" class="nav-item">Numbers</a></li>
                 <li class="border-bottom py-2 border-info"><a href="#strings" class="nav-item">Strings</a></li>
@@ -29,7 +38,7 @@
                 <li class="border-bottom py-2 border-info"><a href="#exceptions" class="nav-item">Exceptions</a></li>
                 <li class="border-bottom py-2 border-info"><a href="#reference" class="nav-item">Reference</a></li>
             </ul>
-            
+
         </nav>
     </header>
 
@@ -39,7 +48,8 @@
     <header id="toggle-button">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-warning p-4 navbar-nav-scroll" id="toggle-color">
-                <header class="fs-1 p-2 my-3 " id="#toggle-header"><b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp&nbsp;Python <br>Documentation</b></header>
+                <header class="fs-1 p-2 my-3 " id="#toggle-header"><b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp&nbsp;Python
+                        <br>Documentation</b></header>
                 <li class="border-bottom py-2  mt-4"><a href="#introduction" class="nav-item">Introduction</a></li>
                 <li class="border-bottom py-2"><a href="#basic_syntax" class="nav-item">Basic Syntax</a></li>
                 <li class="border-bottom py-2"><a href="#variable_types" class="nav-item">Variable Types</a></li>
@@ -54,47 +64,50 @@
             </div>
         </div>
         <nav class="navbar navbar-dark bg-warning ">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </nav>
     </header>
-    
 
 
-    
+
+
     <main class="col-md-9" id="main-doc">
         <div class="container-fluid">
             <section class="main-section m-5 p-5 border border-warning" id="introduction">
                 <header class="fs-3 pb-4"><b>Introduction</b></header>
                 <article>
-                    <p>Python is a high-level, interpreted, interactive and object-oriented scripting language. 
-                        Python is designed to be highly readable. It uses English keywords frequently where as other 
+                    <p>Python is a high-level, interpreted, interactive and object-oriented scripting language.
+                        Python is designed to be highly readable. It uses English keywords frequently where as other
                         languages use punctuation, and it has fewer syntactical constructions than other languages.
                     </p>
                     <p>
                         <li>
-                            Python is Interpreted  − Python is processed at runtime by the interpreter. 
-                            You do not need to compile your program before executing it. This is similar to PERL and PHP.
+                            Python is Interpreted − Python is processed at runtime by the interpreter.
+                            You do not need to compile your program before executing it. This is similar to PERL and
+                            PHP.
                         </li>
                     </p>
                     <p>
                         <li>
-                            Python is Interactive  − You can actually sit at a Python prompt and interact 
+                            Python is Interactive − You can actually sit at a Python prompt and interact
                             with the interpreter directly to write your programs.
                         </li>
                     </p>
                     <p>
                         <li>
-                            Python is Object-Oriented − Python supports Object-Oriented style or technique 
+                            Python is Object-Oriented − Python supports Object-Oriented style or technique
                             of programming that encapsulates code within objects.
                         </li>
                     </p>
                     <p>
                         <li>
-                            Python is a Beginner's Languaged − Python is a great language for the 
+                            Python is a Beginner's Languaged − Python is a great language for the
                             beginner-level programmers and supports the development of a wide range of applications
                             from simple text processing to WWW browsers to games.
                         </li>
@@ -103,16 +116,19 @@
                 <article>
                     <header class="fs-4 pb-4"><b>Python Features</b></header>
                     <p>
-                        <li>Portable − Python can run on a wide variety of hardware platforms and has the same interface on all platforms.</li>
+                        <li>Portable − Python can run on a wide variety of hardware platforms and has the same interface
+                            on all platforms.</li>
                     </p>
                     <p>
-                        <li>Interactive Mode - Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.</li>
+                        <li>Interactive Mode - Python has support for an interactive mode which allows interactive
+                            testing and debugging of snippets of code.</li>
                     </p>
                     <p>
                         <li>Databases − Python provides interfaces to all major commercial databases.</li>
                     </p>
                     <p>
-                        <li>Scalable − Python provides a better structure and support for large programs than shell scripting</li>
+                        <li>Scalable − Python provides a better structure and support for large programs than shell
+                            scripting</li>
                     </p>
                 </article>
             </section>
@@ -120,69 +136,79 @@
                 <header class="fs-3  pb-4"><b>Python - Basic Syntax</b></header>
                 <article>
                     <header class="fs-4 pb-4">First Python Program</header>
-                    <p>Let us write a simple Python program in a script. Python files have extension .py. Type the following source code in a test.py file −</p>
+                    <p>Let us write a simple Python program in a script. Python files have extension .py. Type the
+                        following source code in a test.py file −</p>
                     <div class="code-box">
                         <code>print "Hello, Python!"</code>
                     </div>
-                    
+
                     <p>This produces the following result −</p>
                     <div class="code-box">
                         <code>Hello, Python!</code>
                     </div>
-                    
+
                 </article>
-                
+
                 <article>
                     <p class="fs-4">Python Identifiers</p>
-                    <p>A Python identifier is a name used to identify a variable, function, class, module or other object.
-                        An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more 
+                    <p>A Python identifier is a name used to identify a variable, function, class, module or other
+                        object.
+                        An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or
+                        more
                         letters, underscores and digits (0 to 9).
                     </p>
                     <p>
-                        Python does not allow punctuation characters such as @, $, and % within identifiers. 
-                        Python is a case sensitive programming language. Thus, Manpower and manpower are 
+                        Python does not allow punctuation characters such as @, $, and % within identifiers.
+                        Python is a case sensitive programming language. Thus, Manpower and manpower are
                         two different identifiers in Python.
                     </p>
                 </article>
-                
+
                 <article>
                     <p class="fs-4">Lines and Indentation</p>
-                    <p>Python provides no braces to indicate blocks of code for class and function definitions or flow control.
+                    <p>Python provides no braces to indicate blocks of code for class and function definitions or flow
+                        control.
                         Blocks of code are denoted by line indentation, which is rigidly enforced.</p>
-                        <p>
-                            The number of spaces in the indentation is variable, but all statements within the block
-                            must be indented the same amount. For example −
-                        </p>
-                        <div class="code-box">
-                            <code>
+                    <p>
+                        The number of spaces in the indentation is variable, but all statements within the block
+                        must be indented the same amount. For example −
+                    </p>
+                    <div class="code-box">
+                        <code>
                                 if True:<br> 
                                 &nbsp;&nbsp;&nbsp;&nbsp;print "True"<br>
                                 else:<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;print "False"
                             </code>
-                        </div>
-                        
-                    </article>
-                </section>
-                
+                    </div>
+
+                </article>
+            </section>
+
             <section class="main-section m-5 p-5 border border-warning" id="variable_types">
                 <header class="fs-3 pb-4"><b>Python - Variable Types</b></header>
                 <article>
-                    <p>Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory.</p>
-                    <p>Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory. 
-                        Therefore, by assigning different data types to variables, you can store integers, decimals or characters in these variables.</p>
+                    <p>Variables are nothing but reserved memory locations to store values. This means that when you
+                        create a variable you reserve some space in memory.</p>
+                    <p>Based on the data type of a variable, the interpreter allocates memory and decides what can be
+                        stored in the reserved memory.
+                        Therefore, by assigning different data types to variables, you can store integers, decimals or
+                        characters in these variables.</p>
                     <p class="fs-4">Standard Data Types</p>
-                    <p>he data stored in memory can be of many types. For example, a person's age is stored as a numeric value 
-                        and his or her address is stored as alphanumeric characters. Python has various standard data types 
-                        that are used to define the operations possible on them and the storage method for each of them.</p>
+                    <p>he data stored in memory can be of many types. For example, a person's age is stored as a numeric
+                        value
+                        and his or her address is stored as alphanumeric characters. Python has various standard data
+                        types
+                        that are used to define the operations possible on them and the storage method for each of them.
+                    </p>
                     <p>Python has five standard data types −</p>
-                        <ul>
-                            <li>Numbers</li>
-                            <li>String</li>
-                            <li>List</li>
-                            <li>Tuple</li>
-                            <li>Dictionary</li>
-                        </ul>
+                    <ul>
+                        <li>Numbers</li>
+                        <li>String</li>
+                        <li>List</li>
+                        <li>Tuple</li>
+                        <li>Dictionary</li>
+                    </ul>
                 </article>
             </section>
 
@@ -192,191 +218,204 @@
                 <article>
                     <p class="fs-4">Types of Operator</p>
                     <p>
-                        <ul>
-                            <li>Arithmetic Operators</li>
-                            <li>Comparison (Relational) Operators</li>
-                            <li>Assignment Operators</li>
-                            <li>Logical Operators</li>
-                            <li>Bitwise Operators</li>
-                            <li>Membership Operators</li>
-                            <li>Identity Operators</li>
-                        </ul>
+                    <ul>
+                        <li>Arithmetic Operators</li>
+                        <li>Comparison (Relational) Operators</li>
+                        <li>Assignment Operators</li>
+                        <li>Logical Operators</li>
+                        <li>Bitwise Operators</li>
+                        <li>Membership Operators</li>
+                        <li>Identity Operators</li>
+                    </ul>
                     </p>
                 </article>
             </section>
-                        
-                        
+
+
             <section class="main-section  m-5 p-5 border border-warning" id="decision_making">
                 <header class="fs-3 pb-4"><b>Python - Decision Making</b></header>
                 <article>
-                    <p>Decision making is anticipation of conditions occurring while execution of the program and specifying 
+                    <p>Decision making is anticipation of conditions occurring while execution of the program and
+                        specifying
                         actions taken according to the conditions.</p>
-                    <p>Decision structures evaluate multiple expressions which produce TRUE or FALSE as outcome. 
-                        You need to determine which action to take and which statements to execute if outcome 
+                    <p>Decision structures evaluate multiple expressions which produce TRUE or FALSE as outcome.
+                        You need to determine which action to take and which statements to execute if outcome
                         is TRUE or FALSE otherwise.</p>
-                    <p>Following is the general form of a typical decision making structure found in most of the programming languages −</p>
+                    <p>Following is the general form of a typical decision making structure found in most of the
+                        programming languages −</p>
                     <div class="d-flex justify-content-center">
-                        <img src="https://www.tutorialspoint.com/python/images/decision_making.jpg" alt="Decision making flow diagram">
+                        <img src="https://www.tutorialspoint.com/python/images/decision_making.jpg"
+                            alt="Decision making flow diagram">
                     </div>
-                    <p>Python programming language assumes any non-zero and non-null values as TRUE, and if it is either zero or null,
+                    <p>Python programming language assumes any non-zero and non-null values as TRUE, and if it is either
+                        zero or null,
                         then it is assumed as FALSE value.</p>
                 </article>
             </section>
-                                    
-                                    
-                                    
+
+
+
             <section class="main-section m-5 p-5 border border-warning" id="loops">
                 <header class="fs-3 pb-4"><b>Python - Loops</b></header>
                 <article>
-                    <p>Programming languages provide various control structures that allow for more complicated execution paths.</p>
-                    <p>A loop statement allows us to execute a statement or group of statements multiple times. 
+                    <p>Programming languages provide various control structures that allow for more complicated
+                        execution paths.</p>
+                    <p>A loop statement allows us to execute a statement or group of statements multiple times.
                         The following diagram illustrates a loop statement −</p>
                     <div class="d-flex justify-content-center">
-                        <img src="https://www.tutorialspoint.com/python/images/loop_architecture.jpg" alt="Loop condition diagram">
+                        <img src="https://www.tutorialspoint.com/python/images/loop_architecture.jpg"
+                            alt="Loop condition diagram">
                     </div>
                     <p>Python programming language provides following types of loops to handle looping requirements.</p>
                     <p>
-                        <ul>
-                            <li>while loop</li>
-                            <li>for loop</li>
-                            <li>nested loop</li>
-                        </ul>
+                    <ul>
+                        <li>while loop</li>
+                        <li>for loop</li>
+                        <li>nested loop</li>
+                    </ul>
                     </p>
                     <header class="fs-4 pb-4">Loop Control Statements</header>
                     <p>Loop control statements change execution from its normal sequence. When execution leaves a scope,
                         all automatic objects that were created in that scope are destroyed.</p>
-                        <p>Python supports the following control statements -</p>
+                    <p>Python supports the following control statements -</p>
                     <p>
-                        <ul>
-                            <li>break</li>
-                            <li>continue</li>
-                        </ul>
+                    <ul>
+                        <li>break</li>
+                        <li>continue</li>
+                    </ul>
                     </p>
                 </article>
             </section>
-                                            
-                                            
+
+
             <section class="main-section  m-5 p-5 border border-warning" id="numbers">
                 <header class="fs-3 pb-4"><b>Python - Numbers</b></header>
                 <article>
-                    <p>Number data types store numeric values. They are immutable data types, means that changing the 
+                    <p>Number data types store numeric values. They are immutable data types, means that changing the
                         value of a number data type results in a newly allocated object.</p>
-                        <p>Number objects are created when you assign a value to them. For example −</p>
-                        <div class="code-box">
-                            <code>var = 1 <br>
+                    <p>Number objects are created when you assign a value to them. For example −</p>
+                    <div class="code-box">
+                        <code>var = 1 <br>
                                 var = 2
                             </code>
-                        </div>
-                        <p>Python supports four different numerical types −</p>
-                        <p>
-                            <ul>
-                                <li>int (signed integers)</li>
-                                <li>long (long integers)</li>
-                                <li>float (floating point real values)</li>
-                                <li>complex (complex numbers)</li>
-                            </ul>
-                        </p>
-                    </article>
-                </section>
-                
-                                                
-                                                
-                <section class="main-section m-5 p-5 border border-warning" id="strings">
-                    <header class="fs-3 pb-4"><b>Python - Strings</b></header>
-                    <article>
-                        <p>Strings are amongst the most popular types in Python. We can create them simply 
-                            by enclosing characters in quotes. Python treats single quotes the same as double 
-                            quotes. Creating strings is as simple as assigning a value to a variable. For example −</p>
-                            
-                        <div class="code-box">
-                            <code>
+                    </div>
+                    <p>Python supports four different numerical types −</p>
+                    <p>
+                    <ul>
+                        <li>int (signed integers)</li>
+                        <li>long (long integers)</li>
+                        <li>float (floating point real values)</li>
+                        <li>complex (complex numbers)</li>
+                    </ul>
+                    </p>
+                </article>
+            </section>
+
+
+
+            <section class="main-section m-5 p-5 border border-warning" id="strings">
+                <header class="fs-3 pb-4"><b>Python - Strings</b></header>
+                <article>
+                    <p>Strings are amongst the most popular types in Python. We can create them simply
+                        by enclosing characters in quotes. Python treats single quotes the same as double
+                        quotes. Creating strings is as simple as assigning a value to a variable. For example −</p>
+
+                    <div class="code-box">
+                        <code>
                                 var1 = 'Hello World!'<br>
                                 var2 = "Python Programming"
                             </code>
-                        </div>
-                        <p class="fs-4">Accessing Values in Strings</p>
-                        <p>Python does not support a character type; these are treated as strings of length one,
-                            thus also considered a substring.</p>
-                        <p>To access substrings, use the square brackets for slicing along with the index or
-                            indices to obtain your substring. For example −</p>
-                                
-                        <div class="code-box">
-                            <code>
+                    </div>
+                    <p class="fs-4">Accessing Values in Strings</p>
+                    <p>Python does not support a character type; these are treated as strings of length one,
+                        thus also considered a substring.</p>
+                    <p>To access substrings, use the square brackets for slicing along with the index or
+                        indices to obtain your substring. For example −</p>
+
+                    <div class="code-box">
+                        <code>
                                 var1 = 'Hello World!'<br>
                                 var2 = "Python Programming"<br>
                                 <hr>
                                 print "var1[0]: ", var1[0] <br>
                                 print "var2[1:5]: ", var2[1:5]
                             </code>
-                        </div>
-                        <p>When the above code is executed, it produces the following result −</p>
-                        <div class="code-box">
-                            <code>
+                    </div>
+                    <p>When the above code is executed, it produces the following result −</p>
+                    <div class="code-box">
+                        <code>
                                 var1[0]:  H <br>
                                 var2[1:5]:  ytho <br>
                             </code>
-                        </div>
-                    </article>
-                </section>
-                                                            
-                                                            
-                                                            
-                                                            
-                <section class="main-section m-5 p-5 border border-warning" id="functions">
-                    <header class="fs-3 pb-4"><b>Python - Functions</b></header>
-                    <article>
-                        <p>A function is a block of organized, reusable code that is used to perform a
-                            single, related action. Functions provide better modularity for your
-                            application and a high degree of code reusing.</p>
-                        <header class="fs-4">Example</header>
-                        <p>The following function takes a string as input parameter and prints it on standard screen.</p>
-                        <div class="code-box">
-                            <code>
+                    </div>
+                </article>
+            </section>
+
+
+
+
+            <section class="main-section m-5 p-5 border border-warning" id="functions">
+                <header class="fs-3 pb-4"><b>Python - Functions</b></header>
+                <article>
+                    <p>A function is a block of organized, reusable code that is used to perform a
+                        single, related action. Functions provide better modularity for your
+                        application and a high degree of code reusing.</p>
+                    <header class="fs-4">Example</header>
+                    <p>The following function takes a string as input parameter and prints it on standard screen.</p>
+                    <div class="code-box">
+                        <code>
                                 def printme( str ):<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;"This prints a passed string into this function"<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;print str<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;return
                             </code>
-                        </div>
-                    </article>
-                </section>
-                    
-                                                                
-                                                                
+                    </div>
+                </article>
+            </section>
+
+
+
             <section class="main-section m-5 p-5 border border-warning" id="exceptions">
                 <header class="fs-3 pb-4"><b>Python - Exceptions Handling</b></header>
                 <article>
-                    <p>Python provides two very important features to handle any unexpected error in your 
+                    <p>Python provides two very important features to handle any unexpected error in your
                         Python programs and to add debugging capabilities in them −</p>
-                        <p>
-                            <ul>
-                                <li>Exception Handling</li>
-                                <li>Assertions </li>
-                            </ul>
-                        </p>
-                    </article>
-                </section>
-                                                                    
-                                                                    
-                                                                    
+                    <p>
+                    <ul>
+                        <li>Exception Handling</li>
+                        <li>Assertions </li>
+                    </ul>
+                    </p>
+                </article>
+            </section>
+
+
+
             <section class="main-section m-5 p-5" id="reference">
                 <header class="fs-3 pb-4"><b>Reference</b></header>
                 <article>
                     <p>
-                        <li>All the documentation in this page is taken from <a href="https://www.tutorialspoint.com/python/index.htm">tutorialspoint</a></li></p>
-                    </article>
-                </section>
-            <section class="main-section"><header></header></section>
+                        <li>All the documentation in this page is taken from <a
+                                href="https://www.tutorialspoint.com/python/index.htm">tutorialspoint</a></li>
+                    </p>
+                </article>
+            </section>
+            <section class="main-section">
+                <header></header>
+            </section>
         </div>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
     </main>
-    
+
     <footer>
         <div>
-            <p style="text-align: center;"> Made with ❤️ in Assam, India </p>
+            <p style="text-align: center;"> Made with ❤️ in India </p>
         </div>
     </footer>
 </body>
+
 </html>
