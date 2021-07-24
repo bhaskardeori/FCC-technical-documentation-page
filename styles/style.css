@@ -30,11 +30,13 @@ body {
     #navbar-left {
         display: none;
     }
+
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         width: auto;
         padding-right:0rem;
         padding-left: 0rem;
     }
+    
     #toggle-button div div li {
         list-style-type: none;
     }
@@ -55,8 +57,6 @@ body {
         padding-top: 0.2rem;
         padding-bottom: 0.2rem;
     }
-
-    
 
     #introduction {
         --bs-gutter-x: 0;
